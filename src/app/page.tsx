@@ -62,15 +62,15 @@ export default function HomePage() {
             {/* Right Column: Portrait Card + Config Snapshot */}
             <div className="flex flex-col gap-6 lg:col-span-5">
               <div className="flex items-center gap-5 rounded-2xl border border-slate-800 bg-slate-900/90 p-5 shadow-xl">
-                <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-2xl border-2 border-sky-400/50 bg-slate-800">
+                <div className="h-24 w-24 shrink-0 overflow-hidden rounded-2xl border-2 border-sky-400/50 bg-slate-800">
                   <Image
                     src={profile.avatar.src}
-    alt={profile.avatar.alt}
-    width={400}
-    height={400}
-    priority
-    sizes="96px"
-    className="h-full w-full object-cover"
+                    alt={profile.avatar.alt}
+                    width={400}
+                    height={400}
+                    priority
+                    sizes="96px"
+                    className="h-full w-full object-cover"
                   />
                 </div>
                 <div>
@@ -278,7 +278,7 @@ export default function HomePage() {
         </section>
 
         {/* CONTACT SECTION */}
-        <ContactSection tokens={profile.contactTokens} />
+        <ContactSection />
       </main>
 
       <footer className="border-t border-slate-800/80 py-8">
