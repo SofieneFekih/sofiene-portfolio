@@ -49,10 +49,8 @@ export const PORTFOLIO_DATA = {
     summary:
       "Results-driven Software Engineer with a National Engineering Diploma in Computer Science and 2+ years of combined internship and freelance experience in full-stack development. Proficient in Flutter, Next.js, React, Python, PHP, and Laravel.",
     contactTokens: {
-      emailUser: "Sofienefekih07",
-      emailDomain: "gmail.com",
-      phoneCountry: "+216",
-      phoneBody: "97 099 637",
+      emailB64: "U29maWVuZWZla2loMDdAZ21haWwuY29t",
+      phoneB64: "KzIxNiA5NyAwOTkgNjM3",
     },
     metrics: [
       { value: "2+", label: "Years Experience" },
